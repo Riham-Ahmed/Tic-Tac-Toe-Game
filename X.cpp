@@ -72,10 +72,7 @@ bool check_tie() {
 }
 //This function checks if given cell is empty or not 
 bool check_empty(int i, int j) {
-    if (grid[i][j == '.'])
-        return true;
-    else
-        return false;
+        return grid[i][j] == '.';
 
 }
 //This function checks if given position is valid or not 
